@@ -1,4 +1,4 @@
-package com.yarendonmez.classesWithAttribute;
+package com.yarendonmez._10_getter_setter;
 
 public class ProductManager{
     public void Add(Product product){
