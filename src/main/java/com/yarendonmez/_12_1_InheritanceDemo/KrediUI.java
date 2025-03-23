@@ -3,7 +3,7 @@ package com.yarendonmez._12_1_InheritanceDemo;
 
 public class KrediUI {
     public void KrediHesapla(BaseKrediManager baseKrediManager){
-        baseKrediManager.Hesapla();
+        baseKrediManager.hesapla();
 
     }
 }

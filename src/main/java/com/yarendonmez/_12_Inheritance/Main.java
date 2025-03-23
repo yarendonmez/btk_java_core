@@ -18,7 +18,7 @@ public class Main {
         CustomerManager customerManager = new CustomerManager();
         EmployeeManager employeeManager = new EmployeeManager();
 
-        employeeManager.BestEmployee(employee1);
+        employeeManager.bestEmployee(employee1);
 
     }
 }

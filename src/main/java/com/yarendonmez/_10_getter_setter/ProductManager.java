@@ -1,11 +1,11 @@
 package com.yarendonmez._10_getter_setter;
 
 public class ProductManager{
-    public void Add(Product product){
+    public void add(Product product){
         System.out.println("Ürün eklendi: "+ product.getName());
     }
 
-    public void Info(Product product){
+    public void info(Product product){
         System.out.println("Ürün Bilgileri:");
         System.out.println("ID: "+product.getId());
         System.out.println("Name: "+product.getName());

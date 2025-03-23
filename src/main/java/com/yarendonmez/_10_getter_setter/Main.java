@@ -16,13 +16,13 @@ public class Main {
 
 
         ProductManager productManager = new ProductManager();
-        productManager.Add(product1);
+        productManager.add(product1);
         System.out.println();
-        productManager.Info(product1);
+        productManager.info(product1);
 
         System.out.println("-----------");
-        productManager.Add(product2);
-        productManager.Info(product2);
+        productManager.add(product2);
+        productManager.info(product2);
 
 
     }
