@@ -2,6 +2,21 @@ package com.yarendonmez.classesWithAttribute;
 
 public class Product {
 
+
+    public Product(int id, String name, String description,double price, int stockAmount, int tax){
+        System.out.println("Product nesnesi oluşturuldu");
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.code = code;
+    }
+    public Product(){
+        //overloading
+    }
+
+
     private int id;
     private String name;
     private String description;
@@ -66,12 +81,5 @@ public class Product {
 //        this.code = code;
 //    }
 
-//    public Product(int id, String name, String description,double price, int stockAmount, int tax){
-//        this.id = id;
-//        this.name = name;
-//        this.description = description;
-//        this.price = price;
-//        this.stockAmount = stockAmount;
-//        this.tax = tax;
-//    }
+
 }
