@@ -1,6 +1,4 @@
-package _13_polymorphismDemo;
-
-import java.io.File;
+package com.yarendonmez._13_polymorphismDemo;
 
 public class Main {
 

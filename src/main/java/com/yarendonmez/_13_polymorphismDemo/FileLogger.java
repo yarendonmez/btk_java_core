@@ -1,4 +1,4 @@
-package _13_polymorphismDemo;
+package com.yarendonmez._13_polymorphismDemo;
 
 public class FileLogger extends BaseLogger {
     public void log(String message){
